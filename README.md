@@ -1,2 +1,2 @@
 # Calculator
- 
+ An online calculator in case you misplaced yours. Including in cases when you have deleted the default calculator app on your phone / lost your phone / have a hatred for non browser based calculators and offline apps in general
