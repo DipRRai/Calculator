@@ -22,10 +22,7 @@ function operate(e){
         x = "";
         display.textContent = "0";
     }
-    console.log("x: "+x);
-    console.log("y: "+y); 
-    console.log("OP: "+currentOperation);
-    
+   
 }
 
 function clearHandler(e){
@@ -62,9 +59,6 @@ function equalHandler(e){
     //currentOperation = "";
     displayPrev.textContent = y;
     display.textContent = "0";
-    console.log("x: "+x);
-    console.log("y: "+y); 
-    console.log("OP: "+currentOperation);
 }
 
 nums.forEach(element => {
