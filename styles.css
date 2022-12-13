@@ -1,0 +1,41 @@
+.calculator{
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numpad{
+    display: grid;
+    width: 600px;
+    height: 600px;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10px;
+}
+.num{
+    font-size: 40px;
+}
+.operation{
+    font-size: 40px;
+}
+.equal{
+    font-size: 40px;
+}
+.displayWindow {
+    width: 585px;
+    height: 120px;
+    text-align: right;
+    border: solid;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.display{
+    font-size: 50px;
+    height: 50px;
+}
+.displayPrev{
+    font-size: 40px;
+    height: 50px;
+}
+h1{
+    text-align: center;
+}
