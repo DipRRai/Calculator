@@ -45,13 +45,13 @@ function equalHandler(e){
         x = "0";
     }
     if (currentOperation == "+"){
-        y = parseInt(y)+parseInt(x);
+        y = parseFloat(y)+parseFloat(x);
     } else if (currentOperation == "-"){
-        y = parseInt(y)-parseInt(x);
+        y = parseFloat(y)-parseFloat(x);
     } else if (currentOperation == "*"){
-        y = parseInt(y)*parseInt(x);
+        y = parseFloat(y)*parseFloat(x);
     } else if (currentOperation == "÷"){
-        y = parseInt(y)/parseInt(x);
+        y = parseFloat(y)/parseFloat(x);
     }
     x = "";
     //currentOperation = "";
