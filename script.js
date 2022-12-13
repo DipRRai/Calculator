@@ -51,7 +51,12 @@ function equalHandler(e){
     } else if (currentOperation == "*"){
         y = parseFloat(y)*parseFloat(x);
     } else if (currentOperation == "÷"){
-        y = parseFloat(y)/parseFloat(x);
+        if (x==0){
+            alert("Bruh stop trying to break the calculator")
+        } else {
+            y = parseFloat(y)/parseFloat(x);
+        }
+        
     }
     x = "";
     //currentOperation = "";
